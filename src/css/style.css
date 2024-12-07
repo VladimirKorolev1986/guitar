@@ -433,4 +433,43 @@ table {
   border-spacing: 0;
 }
 
+/* line 4, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 8, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.main-section {
+  height: 800px;
+  background: #F0F0F0;
+  padding-top: 16px;
+}
+
+/* line 12, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 20, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+}
+
+/* line 26, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */
