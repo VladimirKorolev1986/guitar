@@ -434,19 +434,24 @@ table {
 }
 
 /* line 4, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 10, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* line 8, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+/* line 14, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .main-section {
   height: 800px;
   background: #F0F0F0;
   padding-top: 16px;
 }
 
-/* line 12, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+/* line 18, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .main-section__nav-container {
   display: flex;
   flex-direction: row;
@@ -455,26 +460,79 @@ table {
   align-items: center;
 }
 
-/* line 18, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+/* line 24, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .main-section__logo {
   width: 134px;
 }
 
-/* line 22, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+/* line 28, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .nav-menu__list {
   display: flex;
   flex-direction: row;
 }
 
-/* line 25, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+/* line 31, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
 }
 
-/* line 28, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+/* line 34, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .nav-menu__list-item:last-child {
   margin-right: 0px;
+}
+
+/* line 36, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 38, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 41, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.left-wrapper__rectangle-blue {
+  top: 150px;
+  left: -50px;
+  position: absolute;
+  width: 565.95px;
+  height: 220px;
+  background: #5290EA;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 3;
+}
+
+/* line 52, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.left-wrapper__rectangle-orange {
+  position: absolute;
+  width: 618.43px;
+  height: 220px;
+  left: -30px;
+  top: 150px;
+  background: #f28b64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-50.81deg);
+  z-index: 4;
+}
+
+/* line 63, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.left-wrapper__rectangle-grey {
+  position: absolute;
+  width: 608.97px;
+  height: 220px;
+  left: 10px;
+  top: 190px;
+  background: #e2e2e2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-36.15deg);
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */
