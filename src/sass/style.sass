@@ -17,12 +17,16 @@ $color-orange: #f28b64
     padding-top: 16px
     &__nav-container
         display: flex
-        flex-direction: row
+        flex-direction: row 
         justify-content: space-between
         height: 69px
         align-items: center
     &__logo
         width: 134px
+    &__content_container
+        position: relative
+        display: flex
+        flex-direction: row
     
 .nav-menu
     &__list
@@ -71,5 +75,44 @@ $color-orange: #f28b64
         border-radius: 100px
         transform: rotate(-36.15deg)
         z-index: 2
+
+.right-wrapper
+    width: 372px
+    position: absolute
+    top: 150px
+    right: 76px
+    &__icons-box
+        margin-bottom: 1px
+        padding-left: 10px
+    &__title
+        margin-bottom: 7px
+    &__text
+        font-size: 16px
+
 .icons
+    display: flex
     &__item
+        
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 40px
+        height: 40px
+        border: 1px solid $color-blue
+        border-radius: 100px
+        margin-right: 17px
+        &:last-child
+            margin-right: 0px
+        i
+            font-size: 21px
+
+.title 
+    font-size: 72px
+    position: relative
+    &__hr
+        position: absolute
+        width: 65px 
+        bottom: 0px
+        margin: 0px
+        border: none
+        border-top: 1px solid black 
