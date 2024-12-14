@@ -810,4 +810,34 @@ table {
   font-size: 48px;
 }
 
+/* line 245, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.third-section {
+  min-height: 640px;
+}
+
+/* line 248, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 167px;
+  padding-top: 46px;
+}
+
+/* line 255, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+
+/* line 257, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+
+/* line 259, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+.third-section__text {
+  margin-bottom: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
