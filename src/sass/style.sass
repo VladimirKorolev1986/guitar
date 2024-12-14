@@ -7,10 +7,25 @@
 $color-blue: #5290EA
 $color-orange: #f28b64
 
+@font-face 
+    font-family: "MontserratT"
+    src: url('../fonts/Montserrat-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+
+@font-face 
+    font-family: "MontserratT"
+    src: url('../fonts/Montserrat-SemiBold.ttf')
+    font-weight: bold   
+    font-style: normal
+
+html
+    font-family: 'MontserratT'
+
 .container
     max-width: 1140px
     margin: 0 auto
-
+    position: relative
 .main-section
     position: relative
     min-height: 800px
@@ -121,6 +136,7 @@ $color-orange: #f28b64
 .title 
     font-size: 72px
     position: relative
+    font-weight: bold
     &__hr
         position: absolute
         width: 65px 
@@ -221,6 +237,9 @@ $color-orange: #f28b64
         position: absolute
         top: 144px
         right: -45px
+        font-weight: bold
+        
+
 
 
 .cards-item_orange
@@ -240,11 +259,16 @@ $color-orange: #f28b64
         width: 80px
     &__text
         font-size: 18px
+        
         span
             font-size: 48px
+            font-weight: bold
 .third-section
+    position: relative
     min-height: 640px
-
+    background: #F0F0F0
+    overflow: hidden
+    z-index: 0
     &__container
         display: flex
         flex-direction: row
@@ -258,6 +282,39 @@ $color-orange: #f28b64
         margin-bottom: 20px
     &__text
         margin-bottom: 30px
+        font-size: 18px
+    &__first-elipse
+        position: absolute
+        top: 140px
+        left: 110px
+        z-index: -1
+    &__figure
+        position: absolute
+        top: 249px
+        left: 15px
+        z-index: -1
+    &__second-elipse
+        position: absolute
+        right: -120px
+        top: -120px
+
+        
+.title__hr_top
+    bottom: 75px
+
+.footer
+    &__img
+        position: absolute
+        left: -250px
+        bottom: 0px
+    &__container
+        min-height: 272px
+        display: flex
+        align-items: center
+        justify-content: flex-end
+    &__title
+        margin-bottom: 20px
+        
 
         
     
