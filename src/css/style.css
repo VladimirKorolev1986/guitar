@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -6,7 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -19,7 +17,6 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 body {
   margin: 0;
 }
@@ -27,7 +24,6 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 31, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 main {
   display: block;
 }
@@ -36,7 +32,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 40, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -48,7 +43,6 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 53, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -62,7 +56,6 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 64, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -75,7 +68,6 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 76, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 a {
   background-color: transparent;
 }
@@ -84,7 +76,6 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 85, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -97,7 +88,6 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 95, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 b,
 strong {
   font-weight: bolder;
@@ -107,7 +97,6 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 105, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 code,
 kbd,
 samp {
@@ -120,7 +109,6 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 116, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 small {
   font-size: 80%;
 }
@@ -129,7 +117,6 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 125, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 sub,
 sup {
   font-size: 75%;
@@ -138,12 +125,10 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 133, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 137, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 sup {
   top: -0.5em;
 }
@@ -153,7 +138,6 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 148, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 img {
   border-style: none;
 }
@@ -164,7 +148,6 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 160, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 button,
 input,
 optgroup,
@@ -184,7 +167,6 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 176, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 button,
 input {
   /* 1 */
@@ -195,7 +177,6 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 186, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 button,
 select {
   /* 1 */
@@ -205,7 +186,6 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 195, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -216,7 +196,6 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 206, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -228,7 +207,6 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 218, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -239,7 +217,6 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 229, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -250,7 +227,6 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 240, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -269,7 +245,6 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 253, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 progress {
   vertical-align: baseline;
 }
@@ -277,7 +252,6 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 261, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 textarea {
   overflow: auto;
 }
@@ -286,7 +260,6 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 270, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -298,7 +271,6 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 280, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -308,7 +280,6 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 290, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -319,7 +290,6 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 299, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -328,7 +298,6 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 308, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -341,7 +310,6 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 320, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 details {
   display: block;
 }
@@ -349,7 +317,6 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 328, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 summary {
   display: list-item;
 }
@@ -359,7 +326,6 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 339, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 template {
   display: none;
 }
@@ -367,12 +333,10 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 347, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/normalizes.scss */
 [hidden] {
   display: none;
 }
 
-/* line 1, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/resets.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -394,46 +358,38 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 21, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/resets.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 25, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/resets.scss */
 html {
   height: 100%;
 }
 
-/* line 28, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/resets.scss */
 body {
   line-height: 1;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/resets.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 34, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/resets.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 37, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/resets.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 42, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/resets.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 4, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 * {
   box-sizing: border-box;
 }
@@ -452,19 +408,17 @@ table {
   font-style: normal;
 }
 
-/* line 22, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 html {
-  font-family: 'MontserratT';
+  font-family: "MontserratT";
+  font-weight: regular;
 }
 
-/* line 25, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .container {
+  position: relative;
   max-width: 1140px;
   margin: 0 auto;
-  position: relative;
 }
 
-/* line 29, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .main-section {
   position: relative;
   min-height: 800px;
@@ -473,7 +427,6 @@ html {
   overflow: hidden;
 }
 
-/* line 35, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .main-section__nav-container {
   display: flex;
   flex-direction: row;
@@ -482,109 +435,96 @@ html {
   align-items: center;
 }
 
-/* line 41, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .main-section__logo {
-  width: 134px;
+  height: 69px;
 }
 
-/* line 43, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
-.main-section__content_container {
+.main-section__content-container {
   position: relative;
   display: flex;
   flex-direction: row;
 }
 
-/* line 47, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .main-section__first-elipse {
   position: absolute;
   top: 129px;
   right: 80px;
 }
 
-/* line 51, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .main-section__second-elipse {
   position: absolute;
   right: -120px;
   top: 650px;
 }
 
-/* line 57, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .nav-menu__list {
   display: flex;
   flex-direction: row;
 }
 
-/* line 60, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
+  font-weight: bold;
 }
 
-/* line 63, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .nav-menu__list-item:last-child {
   margin-right: 0px;
 }
 
-/* line 65, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .nav-menu__list-item a {
   text-decoration: none;
   color: black;
 }
 
-/* line 68, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .left-wrapper {
   position: relative;
 }
 
-/* line 70, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .left-wrapper img {
   position: relative;
   z-index: 5;
 }
 
-/* line 73, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .left-wrapper__rectangle-blue {
+  position: absolute;
   top: 150px;
   left: -50px;
-  position: absolute;
   width: 565.95px;
   height: 220px;
   background: #5290EA;
   border-radius: 100px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transform: rotate(-64deg);
-  z-index: 3;
+  z-index: 2;
 }
 
-/* line 84, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .left-wrapper__rectangle-orange {
   position: absolute;
   width: 618.43px;
   height: 220px;
   left: -30px;
-  top: 150px;
-  background: #f28b64;
+  top: 160px;
+  background: #F28B64;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 100px;
   transform: rotate(-50.81deg);
-  z-index: 4;
+  z-index: 3;
 }
 
-/* line 95, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .left-wrapper__rectangle-grey {
   position: absolute;
   width: 608.97px;
   height: 220px;
   left: 10px;
   top: 190px;
-  background: #e2e2e2;
+  background: #E2E2E2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 100px;
   transform: rotate(-36.15deg);
-  z-index: 2;
+  z-index: 1;
 }
 
-/* line 107, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .right-wrapper {
   width: 372px;
   position: absolute;
@@ -593,29 +533,24 @@ html {
   z-index: 5;
 }
 
-/* line 113, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .right-wrapper__icons-box {
   margin-bottom: 1px;
   padding-left: 10px;
 }
 
-/* line 116, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .right-wrapper__title {
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 
-/* line 118, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .right-wrapper__text {
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-/* line 122, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .icons {
-  display: flex;
+  display: inline-flex;
 }
 
-/* line 124, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .icons__item {
   display: flex;
   justify-content: center;
@@ -627,144 +562,123 @@ html {
   margin-right: 17px;
 }
 
-/* line 134, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .icons__item:last-child {
   margin-right: 0px;
 }
 
-/* line 136, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .icons__item i {
   font-size: 21px;
 }
 
-/* line 139, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .title {
   font-size: 72px;
   position: relative;
   font-weight: bold;
 }
 
-/* line 143, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .title__hr {
-  position: absolute;
   width: 65px;
+  position: absolute;
   bottom: 0px;
-  margin: 0px;
+  margin: 0;
   border: none;
   border-top: 1px solid black;
 }
 
-/* line 151, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .buttons {
   display: inline-flex;
 }
 
-/* line 153, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .buttons__main-btn {
   margin-right: 32px;
   width: 200px;
   height: 60px;
-  background: #f28b64;
+  background: #F28B64;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 100px;
   border: none;
-  color: white;
   font-size: 18px;
+  color: white;
+  font-weight: bold;
 }
 
-/* line 163, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .buttons__icon-btn {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 166, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .buttons__icon-btn img {
   margin-right: 12px;
 }
 
-/* line 168, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .buttons__text {
   font-size: 16px;
 }
 
-/* line 171, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .elipse {
   width: 194px;
   height: 194px;
-  background: linear-gradient(143.92deg, #ED7B50 14.85%, #488AEA 53.25%, #2C2C2C 85.74%);
+  background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%);
   border-radius: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 180, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .elipse_dig {
   width: 282px;
   height: 282px;
 }
 
-/* line 184, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .elipse__subtract {
-  width: 129.3px;
-  height: 129.3px;
+  width: 129.33px;
+  height: 129.33px;
   background: #F0F0F0;
   border-radius: 150px;
 }
 
-/* line 189, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .elipse__subtract_big {
   width: 188px;
   height: 188px;
 }
 
-/* line 193, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .second-section {
-  min-height: 700px;
   overflow: hidden;
+  min-height: 700px;
 }
 
-/* line 196, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .second-section__container {
   padding-top: 32px;
   position: relative;
 }
 
-/* line 199, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .second-section__title {
   margin-bottom: 40px;
 }
 
-/* line 201, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .second-section__cards-box {
   display: inline-flex;
   justify-content: center;
   margin-bottom: 25px;
 }
 
-/* line 205, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .second-section__cards-item {
   margin-right: 30px;
 }
 
-/* line 207, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .second-section__cards-item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
-/* line 209, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .second-section__icons-box {
   display: flex;
   justify-content: space-evenly;
 }
 
-/* line 213, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .second-section__icons-item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
-/* line 215, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .second-section__first-elipse {
   position: absolute;
   top: 80px;
@@ -772,7 +686,6 @@ html {
   z-index: -1;
 }
 
-/* line 220, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .second-section__second-elipse {
   position: absolute;
   top: 364px;
@@ -780,7 +693,6 @@ html {
   z-index: -1;
 }
 
-/* line 227, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .cards-item {
   position: relative;
   width: 360px;
@@ -791,12 +703,10 @@ html {
   align-items: flex-end;
 }
 
-/* line 235, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .cards-item__img {
   height: 335px;
 }
 
-/* line 237, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .cards-item__text {
   width: 280px;
   font-size: 36px;
@@ -808,40 +718,33 @@ html {
   font-weight: bold;
 }
 
-/* line 250, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .cards-item_orange {
-  background: #f28b64;
+  background: #F28B64;
 }
 
-/* line 255, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .cards-item_blue {
-  bacgroud: #5290EA;
+  background: #5290EA;
 }
 
-/* line 259, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .icons-item {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 262, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .icons-item__img {
   margin-right: 20px;
   width: 80px;
 }
 
-/* line 265, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .icons-item__text {
   font-size: 18px;
 }
 
-/* line 268, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .icons-item__text span {
   font-size: 48px;
   font-weight: bold;
 }
 
-/* line 271, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .third-section {
   position: relative;
   min-height: 640px;
@@ -850,7 +753,6 @@ html {
   z-index: 0;
 }
 
-/* line 277, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .third-section__container {
   display: flex;
   flex-direction: row;
@@ -860,23 +762,19 @@ html {
   padding-top: 46px;
 }
 
-/* line 284, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .third-section__right-wrapper {
   max-width: 480px;
 }
 
-/* line 286, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .third-section__right-title {
   margin-bottom: 20px;
 }
 
-/* line 288, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .third-section__text {
-  margin-bottom: 30px;
   font-size: 18px;
+  margin-bottom: 30px;
 }
 
-/* line 291, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .third-section__first-elipse {
   position: absolute;
   top: 140px;
@@ -884,7 +782,6 @@ html {
   z-index: -1;
 }
 
-/* line 296, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .third-section__figure {
   position: absolute;
   top: 249px;
@@ -892,26 +789,22 @@ html {
   z-index: -1;
 }
 
-/* line 301, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .third-section__second-elipse {
   position: absolute;
   right: -120px;
   top: -120px;
 }
 
-/* line 307, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .title__hr_top {
   bottom: 75px;
 }
 
-/* line 311, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .footer__img {
   position: absolute;
   left: -250px;
   bottom: 0px;
 }
 
-/* line 315, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .footer__container {
   min-height: 272px;
   display: flex;
@@ -919,263 +812,267 @@ html {
   justify-content: flex-end;
 }
 
-/* line 320, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
 .footer__title {
   margin-bottom: 20px;
 }
 
 @media (max-width: 1199px) {
-  /* line 324, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .container {
     width: 960px;
+  }
+  .main-section {
     min-height: 690px;
   }
-  /* line 330, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .left-wrapper img {
     width: 750px;
   }
-  /* line 332, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .left-wrapper__rectangle-blue {
     width: 500px;
     height: 200px;
   }
-  /* line 335, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .left-wrapper__rectangle-orange {
     width: 550px;
     height: 200px;
   }
-  /* line 338, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .left-wrapper__rectangle-grey {
     width: 500px;
     height: 200px;
   }
-  /* line 341, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .right-wrapper {
     right: 20px;
   }
-  /* line 343, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .main-section__first-elipse {
     right: 10px;
   }
-  /* line 345, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .main-section__second-elipse {
     top: 560px;
   }
-  /* line 348, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+  .second-section {
+    min-height: 600px;
+  }
   .second-section__cards-box {
     display: flex;
     justify-content: center;
   }
-  /* line 352, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .cards-item {
     width: 300px;
     height: 300px;
     margin-right: 20px;
   }
-  /* line 356, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .cards-item__img {
     height: 270px;
   }
-  /* line 358, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
-  .cards-item__img {
+  .cards-item__text {
     top: 120px;
     font-size: 30px;
   }
-  /* line 361, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .icons-item__img {
     margin-right: 10px;
   }
-  /* line 363, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .third-section__container {
     padding-left: 40px;
+  }
+  .third-section__right-wrapper {
+    max-width: 450px;
   }
 }
 
 @media (max-width: 991px) {
-  /* line 369, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+  .main-section {
+    min-height: 530px;
+  }
   .main-section__first-elipse {
     top: 70px;
   }
-  /* line 371, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .main-section__second-elipse {
     top: 400px;
   }
-  /* line 373, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .container {
     width: 720px;
   }
-  /* line 376, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .left-wrapper img {
     width: 550px;
   }
-  /* line 380, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .left-wrapper__rectangle-blue {
     width: 380px;
     height: 130px;
   }
-  /* line 383, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .left-wrapper__rectangle-orange {
     width: 410px;
     height: 130px;
   }
-  /* line 386, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
-  .left-wrapper__rectangle-grey {
+  .left-wrapper .left-wrapper__rectangle-grey {
     width: 380px;
     height: 130px;
   }
-  /* line 389, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .title {
     font-size: 60px;
   }
-  /* line 391, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .right-wrapper {
     top: 75px;
     width: 300px;
   }
-  /* line 394, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
-  .right-wrapper__title {
-    font-size: 60px;
-  }
-  /* line 396, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .right-wrapper__text {
     margin-bottom: 10px;
     font-size: 14px;
   }
-  /* line 400, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .buttons__main-btn {
-    font-size: 10px;
+    font-size: 14px;
     margin-right: 10px;
     width: 160px;
     height: 50px;
   }
-  /* line 405, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .buttons__icon-btn {
-    font-size: 10px;
+    font-size: 14px;
   }
-  /* line 407, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .elipse {
     width: 150px;
     height: 150px;
   }
-  /* line 410, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .elipse__subtract {
     width: 110px;
     height: 110px;
   }
-  /* line 413, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .elipse__subtract_big {
     width: 170px;
     height: 170px;
   }
-  /* line 416, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .second-section {
     min-height: 450px;
   }
-  /* line 418, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .second-section__container {
     padding-top: 20px;
   }
-  /* line 420, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .second-section__title {
     margin-bottom: 25px;
   }
-  /* line 422, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .second-section__cards-box {
     margin-bottom: 10px;
   }
-  /* line 424, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
-  .second-section__first-eliplse {
+  .second-section__first-elipse {
     right: -35px;
   }
-  /* line 426, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .second-section__second-elipse {
     top: 262px;
     left: -35px;
   }
-  /* line 429, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .cards-item {
     width: 220px;
     height: 220px;
   }
-  /* line 432, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .cards-item__img {
     height: 200px;
   }
-  /* line 434, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .cards-item__text {
     font-size: 22px;
     top: 92px;
     right: -75px;
   }
-  /* line 439, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
-  .icons-item__text {
-    font-size: 14px;
-  }
-  /* line 441, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
-  .icons-item__text span {
-    font-size: 30px;
-  }
-  /* line 443, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .icons-item__img {
     width: 50px;
   }
-  /* line 447, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 14px;
+  }
+  .icons-item__text span {
+    font-size: 30px;
+  }
   .elipse_dig {
     width: 250px;
     height: 250px;
   }
-  /* line 451, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .third-section {
     min-height: 510px;
   }
-  /* line 454, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .third-section__left-title {
     display: none;
   }
-  /* line 456, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .third-section__right-wrapper {
     max-width: 600px;
   }
-  /* line 458, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .third-section__container {
     justify-content: flex-start;
     padding-left: 20px;
     padding-top: 20px;
   }
-  /* line 463, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
+  .third-section__right-title {
+    margin-bottom: 10px;
+  }
   .title__hr_top {
     bottom: 60px;
   }
-  /* line 467, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .footer__img {
     width: 500px;
   }
-  /* line 469, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .footer__title {
     margin-bottom: 10px;
   }
-  /* line 472, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .footer__container {
     min-height: 210px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 478, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .container {
     width: 540px;
+  }
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 50%;
+    background: #5290EA;
+    z-index: 20;
+    transition: 0.6s all;
+  }
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  .hamburger {
+    width: 30px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+  }
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  .nav-menu_active {
+    right: 0px;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 481, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
   .container {
     width: 100%;
   }
-  /* line 484, ../../../../../../../../../../../../../Users/vladimirkorolev/Documents/проекты по верстке/Project 2/src/sass/style.sass */
-  .third-section__right-wrapper {
-    max-width: 450px;
-  }
 }
-
-/*# sourceMappingURL=style.css.map */
